@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>TO DO list</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <container id="left-side">
+      <div class="up-side">
+        <div class="user-name">
+          <span class="material-symbols-outlined"> format_bold </span> Boris
+          Vaccaro
+        </div>
+        <span class="material-symbols-outlined"> search </span>
+        <input type="text" name="search" placeholder="Quick find" />
+        <br />
+        <div class="options inbox">
+          <span class="material-symbols-outlined"> inbox </span> Inbox
+        </div>
+        <div class="options today">
+          <span class="material-symbols-outlined"> event </span> Today
+        </div>
+        <div class="options upcoming">
+          <span class="material-symbols-outlined"> event_upcoming </span>
+          Upcoming
+        </div>
+        <div class="options somebody">
+          <span class="material-symbols-outlined"> edit_calendar </span> Someday
+        </div>
+        <div class="options trash">
+          <span class="material-symbols-outlined"> delete </span> Trash
+        </div>
+      </div>
+
+      <div class="down-side">
+        <div class="option list"></div>
+        <div class="option label"></div>
+      </div>
+    </container>
+    <hr />
+    <container id="right-side">
+      <div class="list-option">
+        <div class="inside-list">
+          <span class="material-symbols-outlined"> chevron_right </span>
+          <!-- <span class="material-symbols-outlined"> expand_more </span> -->
+          List
+          <div class="list-items">
+            <div class="personal">
+              <span class="material-symbols-outlined"> personal_injury </span>
+              Personal
+            </div>
+            <div class="work">
+              <span class="material-symbols-outlined"> work </span> Work
+            </div>
+            <div class="lecture">
+              <span class="material-symbols-outlined"> play_lesson </span>
+              Lecture
+            </div>
+            <div class="new-list">
+              <span class="material-symbols-outlined"> add </span> New list
+            </div>
+          </div>
+        </div>
+      </div>
+    </container>
+  </body>
+</html>
