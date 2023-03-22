@@ -18,8 +18,10 @@ function init() {
             }
         },
         work: {
-            programme: [{title:"IHIP Status",details:"Monthly Status of IHIP",date:"",done:false},{title:"Prepare SOE",details:"Pre",date:"",done:false}"","Google Sheet"],
-            other: ["NHM Reports","Reply of VSQ"],
+            programme: [{title:"IHIP Status",details:"Monthly Status of IHIP",date:"",done:false},
+                        {title:"Prepare SOE",details:"Prepare NVBDCP SOE",date:"",done:false}],
+            other: [{title:"Reports",details:"Prepare NHM Reports",date:"",done:false},
+                    {title:"Vidhan Sabha",details:"Reply of VSQ",date:"",done:false}],
             meta: {
                 display_title : "Work",
                 icon : `<span class="material-symbols-outlined work"> work </span>`,
@@ -27,8 +29,8 @@ function init() {
             }
         },
         study: {
-            lecture: ["Will Sentance","Kyle Sympson"],
-            code : ["CSS", "Java Script"],
+            lecture: [{title:"Java Script",details:"Complete Will Sentance Lecture",date:"",done:false}],
+            code : [{title:"Java Script",details:"Complete Will Sentance Lecture Code",date:"",done:false}],
             meta:{
                 display_title: "Study",
                 icon: `<span class="material-symbols-outlined lecture">play_lesson</span>`,
