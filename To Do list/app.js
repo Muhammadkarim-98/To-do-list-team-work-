@@ -48,9 +48,23 @@ function init() {
 }
 
 function renderCategoryList(categoryList){
-    let categoryListDOM = "";
+    // let categoryListDOM = "";
+    let fragment = document.createDocumentFragment();
     for(let category in categoryList){
-        categoryListDOM += `<div class="options">${categoryList[category].meta.icon}${categoryList[category].meta.display_title}</div>`;
+        let listItem = document.createElement('div');
+        listItem.classList.add('options');
+        listItem.innerHTML = `${categoryList[category].meta.icon}${categoryList[category].meta.display_title}`
+        fragment.appendChild(listItem);
+        // categoryListDOM += `<div class="options">${categoryList[category].meta.icon}${categoryList[category].meta.display_title}</div>`;
     }
-    listDOM.innerHTML = categoryListDOM;
+    // listDOM.innerHTML = categoryListDOM;
+    listDOM.appendChild(fragment);
+    let listItemsDOM = listDOM.querySelectorAll('.options');
+    listItemsDOM.forEach(item => {
+        item.addEventListener('click',function(e){
+            console.log(e.currentTarget);
+        });
+    })
+    
+    
 }
