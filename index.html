@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>TO DO list</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <container id="box">
+        <main id="left-side">
+          <div class="up-side">
+            <div class="options user-name">
+              <span class="material-symbols-outlined"> format_bold </span> Boris
+              Vaccaro
+            </div>
+            <br />
+            <div class="options serarch">
+              <span class="material-symbols-outlined search"> search </span>
+              <input type="text" name="search" placeholder="Quick find" />
+            </div>
+            <div class="options inbox open-close">
+              <span class="material-symbols-outlined inbox"> inbox </span>
+              <p>Inbox</p>
+            </div>
+            <div class="options today open-close">
+              <span class="material-symbols-outlined today"> event </span>
+              <p>Today</p>
+            </div>
+            <div class="options upcoming open-close">
+              <span class="material-symbols-outlined upcoming">
+                event_upcoming
+              </span>
+              <p>Upcoming</p>
+            </div>
+            <div class="options somebody open-close">
+              <span class="material-symbols-outlined someday">
+                edit_calendar
+              </span>
+              <p>Someday</p>
+            </div>
+            <div class="options trash open-close">
+              <span class="material-symbols-outlined trash"> delete </span>
+              <p>Trash</p>
+            </div>
+          </div>
+          <hr />
+
+          <div class="down-side">
+            <div class="option list">
+              <div class="list-option">
+                <div class="inside-list">
+                  <div class="options list open-close">
+                    <span class="material-symbols-outlined list">
+                      chevron_right
+                    </span>
+                    <!-- <span class="material-symbols-outlined"> expand_more </span>-->List
+                  </div>
+                  <div class="list-items">
+                    <div class="options personal open-close">
+                      <span class="material-symbols-outlined personal">
+                        personal_injury
+                      </span>
+                      Personal
+                    </div>
+                    <div class="options work open-close">
+                      <span class="material-symbols-outlined work"> work </span>
+                      Work
+                    </div>
+                    <div class="options lecture open-close">
+                      <span class="material-symbols-outlined lecture">
+                        play_lesson
+                      </span>
+                      Lecture
+                    </div>
+                    <div class="options new-list open-close">
+                      <span class="material-symbols-outlined new-list">
+                        add
+                      </span>
+                      New list
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="inside-label">
+              <div class="options open-close">
+                <span class="material-symbols-outlined"> chevron_right </span>
+                <!-- <span class="material-symbols-outlined"> expand_more </span> -->
+                Label
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <main id="right-side">
+          <div id="navbar">
+            <div class="nav-items">
+              <!-- BELL -->
+              <span class="material-symbols-outlined"> notifications </span>
+              <!-- SETTING -->
+              <span class="material-symbols-outlined"> settings </span>
+              <!-- HELP -->
+              <span class="material-symbols-outlined"> help </span>
+            </div>
+          </div>
+          <div class="head-right">
+            <div class="sticker">😎</div>
+            <div class="personal-text">
+              <h1>Personal</h1>
+              <p>...</p>
+            </div>
+          </div>
+          <div class="new-task">
+            <span class="material-symbols-outlined new-list"> add </span> New
+            task
+          </div>
+          <br />
+          <div id="tasks">
+            <!-- skincare -->
+            <div class="skincare-task">
+              <div class="skincare-nav">
+                <span class="material-symbols-outlined"> expand_more </span>
+                Skincare
+                <p class="num">4</p>
+                <div class="dots">
+                  <p>...</p>
+                </div>
+              </div>
+              <hr />
+              <!-- house work -->
+              <div class="skincare-lines">
+                <div class="line-1">
+                  <input type="checkbox" /> Daily Routine
+                </div>
+                <div class="line-2">
+                  <input type="checkbox" /> Deep Exfoliation
+                </div>
+                <div class="line-3">
+                  <input type="checkbox" /> Brightening Mask
+                </div>
+                <div class="line-4"><input type="checkbox" /> Scrubbing</div>
+              </div>
+            </div>
+            <!-- house work -->
+            <div class="skincare-task">
+              <div class="skincare-nav">
+                <span class="material-symbols-outlined"> expand_more </span>
+                Housework
+                <p class="num">4</p>
+                <div class="dots">
+                  <p>...</p>
+                </div>
+              </div>
+              <hr />
+              <div class="skincare-lines">
+                <div class="line-1">
+                  <input type="checkbox" /> Daily Routine
+                </div>
+                <div class="line-2">
+                  <input type="checkbox" /> Deep Exfoliation
+                </div>
+                <div class="line-3">
+                  <input type="checkbox" /> Brightening Mask
+                </div>
+                <div class="line-4"><input type="checkbox" /> Scrubbing</div>
+              </div>
+            </div>
+            <!-- grocery shopping -->
+            <div class="skincare-task">
+              <div class="skincare-nav">
+                <span class="material-symbols-outlined"> expand_more </span>
+                Grocery shopping
+                <p class="num">4</p>
+                <div class="dots">
+                  <p>...</p>
+                </div>
+              </div>
+              <hr />
+              <div class="skincare-lines">
+                <div class="line-1">
+                  <input type="checkbox" /> Daily Routine
+                </div>
+                <div class="line-2">
+                  <input type="checkbox" /> Deep Exfoliation
+                </div>
+                <div class="line-3">
+                  <input type="checkbox" /> Brightening Mask
+                </div>
+                <div class="line-4"><input type="checkbox" /> Scrubbing</div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </container>
+    </div>
+  </body>
+</html>
